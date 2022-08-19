@@ -23,21 +23,21 @@ If you are a cookie fan but you are not a fan of baking, this website is perfect
   * the project uses W3Schools for reference on how to make images responsive etc.
  
 ## Testing
-1. Cart Page:
-  i. Go to "Product" Page.
- ii. Try and click the "Add To Cart" button to see if it adds to cart.
-iii. Try to increasing and decreasing the amount of the product.
- iv. Try to remove the product and verify that a relevant error message appears.
-  v. Try and click "Check out" button and verify that a relevant error message appears.
-2. Check out Page:
-  i. Try to submit the empty form and verify that an error message about the required fields appears.
- ii. Try to submit the form with an invalid email address and verify that a relevant error message appears.
-iii. Try to submit the form with all inputs valid and verify that a success message appears.
+ * Cart Page:
+    * Go to "Product" Page.
+    * Try and click the "Add To Cart" button to see if it adds to cart.
+    * Try to increasing and decreasing the amount of the product.
+    * Try to remove the product and verify that a relevant error message appears.
+    * Try and click "Check out" button and verify that a relevant error message appears.
+ * Check out Page:
+    * Try to submit the empty form and verify that an error message about the required fields appears.
+    * Try to submit the form with an invalid email address and verify that a relevant error message appears.
+    * Try to submit the form with all inputs valid and verify that a success message appears.
 
 * Platforms
- * Right now it can view on a laptop
+  * Right now it can view on a laptop
 * Bugs
- * Images are not centered when the browser screenzoom is not set on 100%
+  * Images are not centered when the browser screenzoom is not set on 100%
 
 
 ## Credits
