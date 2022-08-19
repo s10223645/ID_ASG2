@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Check out</title>
+        <link href="shop_now.css" rel="stylesheet" type="text/css">
+        <script src="https://kit.fontawesome.com/68840b93e8.js" crossorigin="anonymous"></script> <!--importing link to make the icon visible-->
+		<script src="total.js" ></script>
+    </head>
+    <body>
+
+        <header>
+            <div class = "banner">
+                <div class= "navbar">
+                    <img src="html logo project.jpg" id="logo">
+                    <nav>
+                        <ul>
+                            <li><a class ="link" href="home_page.html">Home&nbsp;&nbsp;&nbsp;&nbsp;</a>|</li>  
+                            <li><a class ="link" href="products.html">&nbsp;&nbsp;Products&nbsp;&nbsp;&nbsp;&nbsp;</a>|</li> 
+                            
+                            <li><a class ="link" href="about_us.html">&nbsp;&nbsp;About Us&nbsp;&nbsp;&nbsp;&nbsp;</a>|</li> 
+                            <li><a class ="link" href="contact_us.html">&nbsp;&nbsp;Contact Us</a></li> 
+                        </ul>
+                    </nav> 
+                </div> 
+             </div>
+             <script> //for sending the order
+                 function send()
+            {
+                alert("Your order has been submitted. Thank for for your order!!!");
+				window.open("home_page.html" );
+            }
+
+            function erase()
+            {
+                alert("Are You Sure?");
+            }
+			
+			
+            </script>
+            
+
+            <!--for counting the total price of the order-->
+            
+
+        </header><br>
+           
+        <h1 class = "body_background"> Check out  </h1>
+        
+        <form onsubmit="send()" onreset="erase()">
+            <fieldset>
+                <legend>Order Now</legend>
+
+                    <label for="name">Name:</label>
+                    <input type='text' name="name" id="name" required>
+                    <br><br>
+                    
+                    <label for="Phone number">Phone Number:</label>
+                    <input type='text' id="Phone number" name="Phone Number" size = 20 maxlength = 20 required>
+                    <br><br>
+
+                    <label for="adresses">Adresses: </label>
+                    <input id="adresses" type='text' size = 45 maxlength = 70 name="Adresses" required>
+                    <br><br>
+
+                    <label id="deliver" for="Deliver">Deliver or Pick-up?</label> 
+                    <input type = "radio" name = "delivery" value="deliver">Deliver &nbsp;&nbsp;
+                    <input type = "radio" name = "delivery" value="pick up">Pick Up
+                    <br><br>
+                </fieldset><br><br>
+    
+
+                
+
+            <fieldset>
+
+                    
+
+               <fieldset>
+                   <br>
+                   <h3>Payment &nbsp;<i class="fab fa-cc-discover"></i> <i class="fa fa-cc-visa" aria-hidden="true"></i> <i class="fa fa-cc-mastercard" aria-hidden="true"></i> <i class="fab fa-cc-amex"></i> <i class="fa fa-cc-jcb"></i></h3><br>
+                    <label for= "Credit Card number">Credit Card Number</label>
+                    <input name= "credit card number" id="Credit Card number"  type='text' placeholder='1111-2222-3333-4444' required><br><br>
+
+                    <label for ="Expiration Month" >Expiration month</label>
+                    <select name="Expiration month" id="Expiration month">
+                        <option>Januray</option>
+                        <option>Febuary</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>November</option>
+                        <option>December</option>
+                    </select>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label for="Expiration Year">Expiration year</label>
+                    <input name="Expiration year" id="Expiration year" type='text' placeholder='2023' required>
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+
+                    <label for="cvv">CVV</label>
+                    <input id="cvv" name="CVV"  type='text' placeholder='324' required>
+                    &nbsp;<br><br><br>
+
+                        
+                    <button class = "submit" type='Submit' ><i class="far fa-paper-plane"></i> Submit</button>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <button class= "clear" type='Reset'><i class="fa fa-trash-o" aria-hidden="true" style=" font-size:13px;"></i> Clear</button>
+
+            </fieldset>
+            </form> <br><br><br>
+            
+        </div>
+
+    </body>
+   <footer align=center>All Rights reserved by &copy 2022 Kathija's Cookie Shop</footer>
+</html>

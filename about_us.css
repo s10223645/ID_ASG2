@@ -1,0 +1,150 @@
+*{
+    padding:0;
+    margin:0;
+}
+body{
+  background-color: lightyellow;
+  position: relative;
+  min-height: 100vh;
+}
+
+.navbar{
+    vertical-align: middle;
+    background-color: rgba(0,0,0,0.50);
+    display: inline-flex;
+    align-items:center;
+    width:100%;
+
+}
+
+#logo{
+    display:flex;
+    height:70px;
+    width:70px;
+    padding: 10px 20px;
+    border-radius: 30%;
+}
+
+ul{
+    list-style-type: none;
+    display:flex;
+    padding: 5px 25px;
+    margin-left:650px;
+    
+}
+
+li{
+    flex-wrap: nowrap;
+    text-align: right;
+    padding: 0 5px;
+    font-family:'Cormorant Garamond';
+    font-size:14px;
+    color:lemonchiffon;
+}
+
+a{
+    color:lemonchiffon;
+    text-decoration-line: none;
+    
+
+}
+
+a:hover{
+   color:rgb(162, 207, 180);
+}
+
+h1, h2{
+    color:black;
+    padding-top:60px;
+    text-align: center;
+    font-family: 'Merienda';
+
+}
+
+h4{
+    text-align:center;
+    padding:0 10px;
+    padding-top:10px;
+    margin:20px;
+
+}
+
+p{
+    margin: 0 40px;
+    margin-bottom:20px;
+    padding: 0 110px;
+    font-family:'Cormorant Garamond';
+    line-height: 25px;;
+    font-weight: 500;
+    padding-bottom:20px;
+    padding-top:10px;
+}
+
+.story{
+    background-color: white;
+    margin-left:20px;
+    margin-right: 20px;
+    width:70%;
+
+}
+
+aside{
+    float:right;
+    background-color: white;
+    margin-left:10px;
+    margin-right: 10px;
+    width:25%;
+    border-left: 4px solid lightslategray;
+    height: auto;
+}
+
+#owner{
+    border: 2px solid black;
+    border-radius: 100%;
+    margin-left: 60px;
+    margin-top: 30px;
+}
+
+#reason{
+    padding:10px;
+    margin-bottom:190px;
+
+}
+
+.adv{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 60px;
+}
+
+#pic{
+    padding: 20px;
+
+}
+
+footer{
+    margin-top:20px;
+    display:absolute;
+    margin-bottom:-20px;
+    padding:20px;
+    background-color: rgba(0,0,0,0.3);
+}
+
+/*Merienda import font*/
+@font-face {
+    font-family: 'Merienda';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/merienda/v9/gNMHW3x8Qoy5_mf8uWMFMIo.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+  /*Cormorant garamond import font*/
+  @font-face {
+    font-family: 'Cormorant Garamond';
+    font-style: normal;
+    font-weight: 500;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/cormorantgaramond/v10/co3YmX5slCNuHLi8bLeY9MK7whWMhyjQWlhfvg-I.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
