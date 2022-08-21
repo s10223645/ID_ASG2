@@ -23,7 +23,7 @@ If you are a cookie fan but you are not a fan of baking, this website is perfect
 * Feature 2: Can increase and decrease the amount of the product.
 * Feature 3: Click "Remove" button to remove the product from the cart.
 ### Features Left to Implement
--
+* Lottie animation
 
 
 ## Technologies Used
@@ -57,20 +57,20 @@ If you are a cookie fan but you are not a fan of baking, this website is perfect
 
 ## Credits
 ### Content and Media
-https://www.phoenixmag.com/2021/02/22/11-delicious-local-coffee-and-girl-scout-cookie-pairings/
-http://dutchifiedblog.com/wp-content/uploads/2016/02/Cookie-4.png
-https://assets.bonappetit.com/photos/57accdd1f1c801a1038bc794/16:9/w_1615,h_908,c_limit/Hot-Chocolate-2-of-5.jpg
-https://daunseduh.com/wp-content/uploads/2019/09/shutterstock_449900896-min.jpg
-https://www.delish.com/cooking/nutrition/g3211/healthy-cookies/?slide=9
-https://www.pexels.com/photo/closeup-photo-of-woman-with-brown-coat-and-gray-top-733872/
-https://unsplash.com/s/photos/cookie
-https://stackoverflow.com/questions/42093678/how-do-i-change-the-total-price-when-the-quantity-changes
-https://youtu.be/ZJci8xdckvM
+* https://www.phoenixmag.com/2021/02/22/11-delicious-local-coffee-and-girl-scout-cookie-pairings/
+* http://dutchifiedblog.com/wp-content/uploads/2016/02/Cookie-4.png
+* https://assets.bonappetit.com/photos/57accdd1f1c801a1038bc794/16:9/w_1615,h_908,c_limit/Hot-Chocolate-2-of-5.jpg
+* https://daunseduh.com/wp-content/uploads/2019/09/shutterstock_449900896-min.jpg
+* https://www.delish.com/cooking/nutrition/g3211/healthy-cookies/?slide=9
+* https://www.pexels.com/photo/closeup-photo-of-woman-with-brown-coat-and-gray-top-733872/
+* https://unsplash.com/s/photos/cookie
+* https://stackoverflow.com/questions/42093678/how-do-i-change-the-total-price-when-the-quantity-changes
+* https://youtu.be/ZJci8xdckvM
 
 ### Acknowledgement
-https://www.w3schools.com/html/
-https://www.w3schools.com/js/
-https://www.w3schools.com/css/default.asp
+* https://www.w3schools.com/html/
+* https://www.w3schools.com/js/
+* https://www.w3schools.com/css/default.asp
 
 
 ## GitHub Link
